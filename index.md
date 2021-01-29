@@ -1,8 +1,7 @@
-## Welcome to GitHub Pages
+## Welcome mga palakang nawawala~
+Dahil nga wala akong magawa ay nagpagawa ng website ang matindi kong boyfriend dahil wala akong magawa hay nakooo.
 
-You can use the [editor on GitHub](https://github.com/lawwalyy/laurencealyssa/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Buti pa ang github, may commit hay nako.
 
 ### Markdown
 
