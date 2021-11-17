@@ -1,6 +1,6 @@
 <?php
 
-$db = mysqli_connect("localhost","uspfstudent","1234567","studentdb");
+$db = mysqli_connect("localhost","uspfstudent","1234567","schooldb");
 
 if(!$db)
 {
