@@ -1,18 +1,18 @@
 <?php
-include "dbConn.php";
+include "dbConn.php"; 
 
 if(isset($_POST['submit']))
 {		
-    $Student_ID_Number = $_POST['Student ID Number'];
-    $Student_Family_Name = $_POST['Student Family Name'];
-    $Student_First_Name = $_POST['Student First Name'];
-    $Student_Middle_Name = $_POST['Student Middle Name'];
-    $Student_Email_Address = $_POST['Student Email Address'];
-    $Student_Home_Address = $_POST['Student Home Address'];
-    $Student_Mobile_Number = $_POST['Student Mobile Number'];
-    $Student_Course = $_POST['Student Course'];
+    $Student_ID_Number = $_POST['ID_Number'];
+    $Student_Family_Name = $_POST['Family_Name'];
+    $Student_First_Name = $_POST['First_Name'];
+    $Student_Middle_Name = $_POST['Middle_Name'];
+    $Student_Email_Address = $_POST['Email_Address'];
+    $Student_Home_Address = $_POST['Home_Address'];
+    $Student_Mobile_Number = $_POST['Mobile_Number'];
+    $Student_Course = $_POST['Course'];
 
-    $insert = mysqli_query($db,"INSERT INTO `tblemp`(`Student ID Number`, `Student Family Name`, `Student First Name`, `Student Middle Name`, `Student Email Address`, `Student Home Address`, `Student Mobile Number`, `Student Course`,) VALUES ('$Student ID Number','$Student Family Name', '$Student First Name', '$Student Middle Name', '$Student Email Address', '$Student Home Address', '$Student Mobile Number', '$Student Course')");
+    $insert = mysql_query($db "INSERT INTO `tblemp`(`ID_Number`, `Family_Name`, `First_Name`, `Middle_Name`, `Email_Address`, `Home_Address`, `Mobile_Number`, `Course`,) VALUES ('ID_Number','Family_Name', 'First_Name', 'Middle_Name', 'Email_Address', 'Home_Address', 'Mobile_Number', 'Course')");
 
     if(!$insert)
     {
