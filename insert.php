@@ -1,5 +1,5 @@
 <?php
-include "dbConn.php"; // Using database connection file here
+include "dbConn.php";
 
 if(isset($_POST['submit']))
 {		
@@ -24,5 +24,5 @@ if(isset($_POST['submit']))
     }
 }
 
-mysqli_close($db); // Close connection
+mysqli_close($db);
 ?>
